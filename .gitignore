@@ -1,0 +1,54 @@
+# Miscelánea
+*.class
+*.log
+*.pyc
+*.swp
+.DS_Store
+.atom/
+.build/
+.buildlog/
+.history
+.svn/
+.swiftpm/
+migrate_working_dir/
+
+# Configuración personal de IntelliJ / Android Studio
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# Configuración personal de VS Code (si se usa)
+.vscode/
+
+# Flutter / Dart / Pub
+**/doc/api/
+**/ios/Flutter/.last_build_id
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.pub-cache/
+.pub/
+/build/
+build/
+/coverage/
+
+# Símbolos y ofuscación
+app.*.symbols
+app.*.map.json
+
+# Android
+android/.gradle/
+android/local.properties
+android/app/debug/
+android/app/profile/
+android/app/release/
+android/captures/
+android/gradlew
+android/gradlew.bat
+android/gradle/wrapper/gradle-wrapper.jar
+
+# Llaves de firma: nunca se suben
+*.jks
+*.keystore
+key.properties

@@ -1,0 +1,48 @@
+name: turco
+description: "Turco: gestión de turnos de una peluquería mixta. Primer Examen Parcial de Programación para Dispositivos Móviles. Autor: Manuel."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  # Flutter 3.27 o superior (Dart 3.6+).
+  sdk: '>=3.6.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  # Localización en español (showDatePicker, textos de Material).
+  flutter_localizations:
+    sdk: flutter
+  # Navegación (único paquete externo). No se usan manejadores de estado externos.
+  go_router: '>=14.2.0 <18.0.0'
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: '>=4.0.0 <7.0.0'
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+    - assets/images/categorias/
+    - assets/images/estilistas/
+    - assets/images/ilustraciones/
+
+  fonts:
+    - family: Poppins
+      fonts:
+        - asset: assets/fonts/Poppins-Regular.ttf
+          weight: 400
+        - asset: assets/fonts/Poppins-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/Poppins-SemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/Poppins-Bold.ttf
+          weight: 700
+    # Iconos Lucide (los mismos del diseño .pen) empaquetados como fuente.
+    - family: Lucide
+      fonts:
+        - asset: assets/fonts/Lucide.ttf
